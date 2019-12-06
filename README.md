@@ -1,5 +1,5 @@
 # Chemical-Equilibrium with Julia
-Gas phase chemical equilibrium calculation.
+Gas phase chemical equilibrium calculation using Julia progrramming language.
 Function MicPV calculates chemical equilibrium of the gas mixture provides the temperature T and pressure p or volume v are specified.
 Data input:
 m-number of chemical elements;
