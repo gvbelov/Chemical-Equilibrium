@@ -12,3 +12,4 @@ Computed values:
 equilibrium composition, mole;
 volume, if pressure is specified,
 pressure, if volume is specified.
+For more details see the text "Using the Julia programming language to calculate the equilibrium composition of a multicomponent gas phase system" DOI:10.5281/zenodo.3592865 https://zenodo.org/record/3592865
