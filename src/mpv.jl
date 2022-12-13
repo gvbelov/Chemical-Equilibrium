@@ -46,7 +46,7 @@ function MicPV(T,p,v, m,k, b, Nji, F)
       Parameters=zeros(4); EquilibriumComposition=zeros(k); bb = zeros(m+1)
       Rgas = 8.314462618
       StandardPressure = 101325   #  =1.e5, if 1 bar
-      global xx, xs
+      global xx, xs, eps
 sum_b=0; 
 for i in 1:m sum_b+=b[i] end
 for i in 1:m b[i] = b[i]/sum_b end
