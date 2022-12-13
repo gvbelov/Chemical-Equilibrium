@@ -1,7 +1,7 @@
 Example 1.
-
-Temperature 3000 K, pressure 0.1 MPa, 1 mole NO2, 
-list of products: O, O2, N2, NO.
+https://github.com/gvbelov/Chemical-Equilibrium
+#Temperature 3000 K, pressure 0.1 MPa, 1 mole NO2, 
+#list of products: O, O2, N2, NO.
 m=2
 k=4
 b=[1.0, 2.0] # (NO2)
@@ -23,8 +23,8 @@ NO(g)	0.075421
 Example 2, see White W.B., Johnson S.M., Dantzig G.B. Chemical Equilibrium in Complex Mixtures, 
 Journal of Chemical Physics. – 1958. – V.28, # 5. – P.751-755.
 
-Temperature 3500 К, pressure 5.171068 MPa, 0.5 mole N2H4 + 0.5 mole O2,
-list of products: H, H2, H2O, N, N2, NH, NO, O, O2, OH
+#Temperature 3500 К, pressure 5.171068 MPa, 0.5 mole N2H4 + 0.5 mole O2,
+#list of products: H, H2, H2O, N, N2, NH, NO, O, O2, OH
 m=3
 k=10
 b=[2.0,1.0,1.0]
