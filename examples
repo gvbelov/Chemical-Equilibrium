@@ -8,7 +8,7 @@ b=[1.0, 2.0] # (NO2)
 Nji=[0 1 ; 0  2; 2 0; 1 1]
 F=[12.95082; 30.274008; 28.36782; 27.177314]
 
-iertxt, Parameters, EquilibriumComposition = MPV2.MicPV(3000,0.1,0,m,k,b,Nji,F)
+iertxt, Parameters, EquilibriumComposition = MicPV(3000,0.1,0,m,k,b,Nji,F)
 
 pressure, MPa =0.1
 temperature, K =3000.0
@@ -32,7 +32,7 @@ Nji=[1 0 0; 2 0 0; 2 0 1; 0 1 0; 0 2 0;
      1 1 0; 0 1 1; 0 0 1; 0 0 2; 1 0 1]
 F=[10.021; 21.096; 37.986;9.846; 28.653; 18.918; 28.032;14.640; 30.594;26.111]
 
-iertxt, Parameters, EquilibriumComposition = MPV2.MicPV(3500,5.171068,0,m,k,b,Nji,F) 
+iertxt, Parameters, EquilibriumComposition = MicPV(3500,5.171068,0,m,k,b,Nji,F) 
 
 pressure, MPa =5.171068
 temperature, K =3500.0
